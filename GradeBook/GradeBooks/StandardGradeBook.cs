@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GradeBook.GradeBooks
+﻿namespace GradeBook.GradeBooks
 {
     public class StandardGradeBook : BaseGradeBook
-
     {
-
-        public StandardGradeBook(string name) : base(name)
+        public StandardGradeBook(string name, bool isWeighted) : base(name, isWeighted)
         {
-            this.Type = Enums.GradeBookType.Standard;
+            Type = Enums.GradeBookType.Standard;
         }
+    }
+}
     
 
 
