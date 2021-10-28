@@ -79,6 +79,7 @@ namespace GradeBook.UserInterfaces
         }
 
         public static void HelpCommand()
+
         {
             Console.WriteLine();
             Console.WriteLine("GradeBook accepts the following commands:");
