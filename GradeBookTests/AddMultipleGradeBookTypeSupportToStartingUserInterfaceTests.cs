@@ -5,6 +5,7 @@ using GradeBook.UserInterfaces;
 using Xunit;
 
 namespace GradeBookTests
+
 {
     public class AddMultipleGradeBookTypeSupportToStartingUserInterfaceTests
     {
